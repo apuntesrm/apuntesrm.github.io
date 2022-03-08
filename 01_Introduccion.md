@@ -1,6 +1,7 @@
 ---
-layout: 01_Introduccion
+layout: page
 title: Introudción al tema de las tarjetas de expansión
+permalink: /01_Introduccion/
 ---
 
 <link rel="stylesheet" type="text/css" href="css/estilos.css"/>
