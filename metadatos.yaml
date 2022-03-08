@@ -1,0 +1,85 @@
+---
+# output:
+#   pdf_document: default
+#   word_document: default
+#   html_document: default
+#   odt_document: default
+
+# Metainformació del document
+title: UD08 Tarjetas de expansión
+titlepage: true
+subtitle: Apuntes de Montaje y Mantenimientos de Equipos.
+author: 
+- Sergio Rey
+abstract:
+  Tema dedicado a las tarjetas de expansión de los ordenadores actuales.
+lang: es
+
+# portada
+titlepage-rule-height: 2
+titlepage-rule-color: 660000
+titlepage-text-color: 660000
+titlepage-background: imgs/MMEportada.png
+
+# configuració de l'índex
+toc-own-page: true
+toc-title: Contenidos
+toc-depth: 2
+
+# capçalera i peu
+header-left: \thetitle
+header-right: Curso 2021-2022
+footer-left: UD08. Tarjetas de expansión.
+footer-center: \thepage/\pageref{LastPage}
+footer-right: \today
+
+# Les figures que apareguen on les definim i centrades
+float-placement-figure: H
+caption-justification: centering 
+
+# No volem numerar les linies de codi
+listings-disable-line-numbers: true
+
+# Configuracions dels paquets de latex
+header-includes:
+  - \usepackage{lastpage}
+
+  #  imatges i subfigures
+  - \usepackage{graphicx}
+  - \usepackage{subfigure}
+  - \usepackage{adjustbox}
+
+  # marca d'aigua
+  - \usepackage{draftwatermark}
+  - \SetWatermarkText{MME}
+  # - \SetWatermarkText{\includegraphics{imgs/logoWater.png}}
+  - \SetWatermarkScale{1}
+  - \SetWatermarkAngle{45}
+   
+  # caixes d'avisos 
+  - \usepackage{awesomebox}
+
+  # text en columnes
+  - \usepackage{multicol}
+  - \setlength{\columnseprule}{1pt}
+  - \setlength{\columnsep}{1em}
+
+  # pàgines apaïsades
+  - \usepackage{pdflscape}
+  
+  # per a permetre pandoc dins de blocs Latex
+  - \newcommand{\hideFromPandoc}[1]{#1}
+  - \hideFromPandoc {
+        \let\Begin\begin
+        \let\End\end
+        }
+
+# definició de les caixes d'avis
+pandoc-latex-environment:
+  noteblock: [note]
+  tipblock: [tip]
+  warningblock: [warning]
+  cautionblock: [caution]
+  importantblock: [important]
+
+---
