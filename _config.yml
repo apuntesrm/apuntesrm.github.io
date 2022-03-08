@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Apuntes MME: Tarjetas de expansión.
+title: Apuntes MME - Tarjetas de expansión.
 email: sergio.rey.pt@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Apjntes para el módulo de MME pertieneciente al ciclo de SMR
