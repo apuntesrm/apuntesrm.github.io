@@ -1,5 +1,5 @@
 ---
-layout: Introduccion
+layout: 01_Introduccion
 title: Introudción al tema de las tarjetas de expansión
 ---
 
