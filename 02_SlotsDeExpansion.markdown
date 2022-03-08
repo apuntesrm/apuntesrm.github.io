@@ -1,3 +1,10 @@
+---
+layout: page
+title: Slots de Expansión
+permalink: /02_SlotsDeExpansion/
+---
+
+
 <link rel="stylesheet" type="text/css" href="css/estilos.css"/>
 
 # Slots de expansión

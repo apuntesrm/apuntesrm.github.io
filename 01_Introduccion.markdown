@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Introudción al tema de las tarjetas de expansión
+title: Introducción
 permalink: /01_Introduccion/
 ---
 
