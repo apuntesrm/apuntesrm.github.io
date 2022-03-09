@@ -37,11 +37,11 @@ Además, es posible ampliar nuestro equipo con otras tarjetas como:
 
 Debido al avance en la tecnología _**USB**_ y a la _**integración de audio/vídeo en la placa base**_, hoy en día las tarjetas de expansión se emplean cada vez con menos frecuencia, integrándose en estos dispositivos todas las funcionalidades de las tarjetas de expansión convencionales.
 
-![Placa base con tarjetas de expansión](imgs/Placas-Expansion.png){width=70%}
+![Placa base con tarjetas de expansión](imgs/Placas-Expansion.png#Width70)
 
 Ejemplos de tarjetas:
 
-![Ejemplos de tarjetas](imgs/tarjeta-expansion-ordenador.png){width=70%}
+![Ejemplos de tarjetas](imgs/tarjeta-expansion-ordenador.png#Width70)
 
 <!-- 
 ![Ejemplos de tarjetas 1](imgs/tarjeta-expansion-ordenador.png)
