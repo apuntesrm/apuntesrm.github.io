@@ -1,3 +1,9 @@
+---
+layout: page
+title: Tarjetas gráficas
+permalink: /03_TarjetasGraficas/
+---
+
 <link rel="stylesheet" type="text/css" href="css/estilos.css"/>
 
 # Tarjetas gráficas

@@ -1,3 +1,9 @@
+---
+layout: page
+title: Tarjetas de Interfaz
+permalink: /06_TarjetasDeExpansion/
+---
+
 <link rel="stylesheet" type="text/css" href="css/estilos.css"/>
 
 # Tarjetas Interfaz

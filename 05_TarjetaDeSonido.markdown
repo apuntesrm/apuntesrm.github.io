@@ -1,3 +1,9 @@
+---
+layout: page
+title: Tarjetas de Sonido
+permalink: /04_TarjetasDeSonido/
+---
+
 <link rel="stylesheet" type="text/css" href="css/estilos.css"/>
 
 # Tarjeta de sonido

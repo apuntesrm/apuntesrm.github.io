@@ -1,3 +1,9 @@
+---
+layout: page
+title: Tarjetas de Red
+permalink: /04_TarjetasDeRed/
+---
+
 <link rel="stylesheet" type="text/css" href="css/estilos.css"/>
 
 # Tarjetas de Red

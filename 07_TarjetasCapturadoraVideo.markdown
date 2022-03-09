@@ -1,3 +1,9 @@
+---
+layout: page
+title: Tarjetas Capturadoras de Video
+permalink: /07_TarjetasCapturadoraVideo/
+---
+
 <link rel="stylesheet" type="text/css" href="css/estilos.css"/>
 
 # Tarjetas capturadoras de vídeo
