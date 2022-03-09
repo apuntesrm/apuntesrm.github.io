@@ -4,5 +4,7 @@
 
 layout: home
 # layout: default
-# title: Inicio
+# title: Introducción
 ---
+
+Pagina de Inicio de apuntes de MME
