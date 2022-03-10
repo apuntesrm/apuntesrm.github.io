@@ -68,9 +68,9 @@ We include an image in the next paragraph:
 ![A nice image.](imgs/markdown.png){width=50%}
 ![Ejemplos de tarjetas 31](imgs/tarjeta-expansion-ordenador.png){ width=30% } -->
 
-::: note
+<!-- ::: note
 Anotació: Apuntes preparados para el curso de MarkDown.
-:::
+::: -->
 
 <!-- 
 ::: tip
