@@ -29,6 +29,7 @@ twitter_username: jekyllrb
 github_username:  srey-git
 
 # Build settings
+
 theme: null
 plugins:
   - jekyll-feed
