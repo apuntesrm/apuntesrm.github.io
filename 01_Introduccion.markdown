@@ -4,7 +4,7 @@ title: Introducción
 permalink: /01_Introduccion/
 ---
 
-<link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+<link rel="stylesheet" type="text/css" href="/css/estilos.css"/>
 <!-- <style type="text/css" rel="stylesheet">
   img{
     display: block;
