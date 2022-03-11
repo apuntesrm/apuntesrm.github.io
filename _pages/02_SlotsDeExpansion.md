@@ -61,14 +61,14 @@ Una particularidad del bus PCIe, es que es un bus modular. Es decir, que los con
   
 Esto quiere decir que físicamente cada conector tiene un número de pines de contacto determinado, donde por ejemplo el conector de mayor tamaño, el x16, puede tener todos los contactos habilitados en su longitud, o en cambio tener solo la mitad, lo que rebajaría su velocidad a x8 lógicamente.  
 
-[![Tipos de placas PCIe](imgs/TiposSlotPCIe.png#Width70){width=60%}](https://hardzone.es/reportajes/que-es/pci-express-caracteristicas/)
+[![Tipos de placas PCIe](imgs/TiposSlotPCIe.png#Width50)](https://hardzone.es/reportajes/que-es/pci-express-caracteristicas/)
 
-![Tipos de placas PCIe](imgs/TiposSlotPCIe_2.png#Width70)
+![Tipos de placas PCIe](imgs/TiposSlotPCIe_2.png#Width60)
 
 ## Factor de forma y tarjetas de expansión
 
 Las tarjetas de expansión vienen preparadas para los diferentes factores de forma de las cajas de los equipos:
 
-![Bracket perfil alto y bajo para tarjetas de expansión](imgs/BracketPCIe.png#Width60)
+![Bracket perfil alto y bajo para tarjetas de expansión](imgs/BracketPCIe.png#Width50)
 
 Dependiendo del factor de forma, debemos utilizar un **bracket** de **perfil alto** o de **pefil bajo**
