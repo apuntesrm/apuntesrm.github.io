@@ -13,3 +13,5 @@ Estos son los apuntes del módulo de **Montaje y Mantenimiento de Equipos** gene
 {% include tooltip.html position="top" text="Esta web se ha realizado utilizando Jekill" %}
 
 Para la generación de esta documentación me he basado tanto en los apuntes del curso como el infinidad de páginas que he encontrado en internet sobre el tema. En concreto me he basado en gran parte en la web [Getting Started with Jekyll and GitHub Pages: Your First Website](https://www.aleksandrhovhannisyan.com/blog/getting-started-with-jekyll-and-github-pages/) que me ha servido como base para tener una página limpia a la que le he aplicado estilos utilizando SASS (CSS)
+
+*Marzo de 2022*
