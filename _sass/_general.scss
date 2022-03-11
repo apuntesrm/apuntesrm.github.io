@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+}
+
+body {
+  width: 80%;
+  font-size: 18px;
+  font-family: Verdana, sans-serif;
+  margin: 0 auto;
+}
+
+img{
+  display: block;
+  margin: auto;
+}
+
+img[src*='#Width30']{
+  width: 30%;
+}
+img[src*='#Width40']{
+  width: 40%;
+}
+img[src*='#Width50']{
+  width: 50%;
+}
+img[src*='#Width60']{
+  width: 60%;
+}
+img[src*='#Width70']{
+  width: 70%;
+}
+img[src*='#Width80']{
+  width: 80%;
+}
+img[src*='#Width90']{
+  width: 90%;
+}
+img[src*='#Width100']{
+  width: 100%;
+} 
+
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+nav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+nav a:hover {
+  color: #f1f1f1;
+}
+
