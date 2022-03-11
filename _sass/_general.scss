@@ -31,10 +31,20 @@ body {
   margin: 1em 0em;
 }
 
+header{
+  margin-top: 0.1em;
+  position: sticky;
+  top: 0;
+  font-size: xx-large;
+  text-align: center;
+  color: gray;
+  background-color: darkgray;
+  text-shadow: 1px 1px 2px lightgray;
+}
+
 h1{
   color: darkgray;
   margin-top: 0.5em;
-  text-shadow: 1px 1px 2px lightgray;
 }
 
 h2{
@@ -80,7 +90,9 @@ img[src*='#Width100']{
 
 /* The side navigation menu */
 nav {
-  margin-top: 50px;
+  margin-top: 3em;
+  position: sticky;
+  top: 2.5em;
   float: left; 
   width: 20%; 
   background: $ColorFondoMenu; 
