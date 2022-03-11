@@ -18,7 +18,7 @@ Controla la apariencia, el movimiento, el color, el brillo y la claridad de las 
 La mayoría de las tarjetas gráficas actuales están diseñadas para la ranura **PCI Express x16**; las tarjetas **PCI** y **AGP** están prácticamente extintas.
 :::
 
-![Esquema tarjeta gráfica](imgs/EsquemaTarjetaGrafica.png#Width90){width=90%}
+![Esquema tarjeta gráfica](imgs/EsquemaTarjetaGrafica.png#Width90)
 
 ## Componentes
 
@@ -41,7 +41,7 @@ Así, pues existen memorias gráficas de dos tipos:
 - **Dedicada**: cuando la tarjeta gráfica o la **GPU dispone** exclusivamente para sí esas memorias, esta manera es la más eficiente y la que mejores resultados da.
 - **Compartida**: cuando se utiliza memoria en detrimento de la memoria de acceso aleatorio (RAM).
 
-![UEFI de tarjeta con gráfica integrada](imgs/UEFIMISIIntegrada.png#Width80){width=80%}
+![UEFI de tarjeta con gráfica integrada](imgs/UEFIMISIIntegrada.png#Width80)
 
 Su tamaño oscila entre los 128 MB y 1 TB.  
 
@@ -79,9 +79,9 @@ La resolución se expresa como ancho x alto.
 **A mayor cantidad de memoria de vídeo**, mayor será la cantidad de texturas que la tarjeta gráfica podrá controlar cuando muestre gráficos 3D. Las tarjetas gráficas deben tener memoria suficiente para almacenar la información de los datos de una pantalla.  
 La capacidad de la memoria también es importante porque afecta el número y la resolución de imágenes que puede almacenarse.  
 
-![Profundida del color o número de bits](imgs/ProfundidadColor.png#Width90){width=90%}
+![Profundida del color o número de bits](imgs/ProfundidadColor.png#Width90)
 
-![Ejemplo de profundidad de color](imgs/ProfundidadesColor.png#Width70){width=70%}
+![Ejemplo de profundidad de color](imgs/ProfundidadesColor.png#Width70)
 
 
 - ¿Cómo calcular la memoria necesaria que se necesita para cierta configuración de pantalla?
@@ -153,25 +153,25 @@ La GPU no sigue la arquitectura Von Neuman, sino el Modelo Circulante basado en 
   
 La CPU sigue la arquitectura Von Neuman.
 
-![Diferencias Arquitecturas CPU y GPU](imgs/GPUArquitectura.png#Width80){width=90%}
+![Diferencias Arquitecturas CPU y GPU](imgs/GPUArquitectura.png#Width80)
 
 ## Interfaces con la Placa Base
 
 Existen varios tipos de interfaces que se utilizan para conectar las tarjetas gráficas, aunque en la actualidad prácticamente han desaparecido los formatos PCI y AGP y solo se usa el PCI Express x16.
 
-![Interfaces de conexión AGP](imgs/AGPInterface.png#Width70){width=70%}
+![Interfaces de conexión AGP](imgs/AGPInterface.png#Width70)
 
 Actualmente se están vendiendo tarjetas gráficas que además de los 16 lanes (x16) soportan el estándar 2.1, lo que supone una tasa de transmisión de 1 GB/s por lan, llegando a los 16 GB/s de ancho de banda (1 GB/s x 16).
 
-![Interfaces de conexión PCI express](imgs/PCIeInterface.png#Width70){width=70%}
+![Interfaces de conexión PCI express](imgs/PCIeInterface.png#Width70)
 
 Diferencias entre diferentes ranuras PCIe
 
-![Diferencias entre diferentes ranuras PCIe](imgs/PCIeInterface_2.png#Width70){width=70%}
+![Diferencias entre diferentes ranuras PCIe](imgs/PCIeInterface_2.png#Width70)
 
 Ejemplo tarjetas gráficas con PCIe x16
 
-![Ejemplos de tarjetas gráficas con PCIe x16](imgs/nVIDIAGTX1080.png#Width70){width=90%}
+![Ejemplos de tarjetas gráficas con PCIe x16](imgs/nVIDIAGTX1080.png#Width70)
 
 ## Salidas/conectores de la tarjeta gráfica
 
@@ -179,11 +179,11 @@ Ejemplo tarjetas gráficas con PCIe x16
 
 Conjunto de estándares gráficos diseñados en la década de 1990 para dispositivos CRT; monitor analógico de rayos catódicos.
 
-![Monitor CTR](imgs/MonitorCTR.png#Width50){width=50%}
+![Monitor CTR](imgs/MonitorCTR.png#Width50)
 
 Sufre de ruido eléctrico y distorsión por la conversión de digital a analógico. El conector utilizado es el D-sub de 15 pines (DB-15).
 
-![Conector VGA](imgs/ConectorVGA.png#Width40){width=40%}
+![Conector VGA](imgs/ConectorVGA.png#Width40)
   
 ### DVI  
 
@@ -197,7 +197,7 @@ Interfaz de video diseñada para obtener la máxima calidad de visualización en
   
 La ventaja frente a VGA está en que el monitor (que es digital) ya recibe la información en formato digital y no se deben hacer conversiones.
 
-![Conector DVI](imgs/ConectorDVI.png#Width30){width=30%}
+![Conector DVI](imgs/ConectorDVI.png#Width30)
 
 Los conectores DVI se clasifican en tres tipos en función de qué señales admiten:  
 
@@ -207,7 +207,7 @@ Los conectores DVI se clasifican en tres tipos en función de qué señales admi
   
 A veces se denomina DVI-DL a los conectores que admiten dos enlaces.  
 
-[![Tipos de conectores DVI](imgs/DVI_Connector_Types.jpg#Width70){width=90%}](https://www.mundovideo.com.co/como-reparar-tragamonedas-manuales-tragamonedas/tipos-de-conectores-dvi-y-diferencias)
+[![Tipos de conectores DVI](imgs/DVI_Connector_Types.jpg#Width70)](https://www.mundovideo.com.co/como-reparar-tragamonedas-manuales-tragamonedas/tipos-de-conectores-dvi-y-diferencias)
 
 ### HDMI (High-Definition Multimedia Interface)
 
@@ -232,15 +232,15 @@ Fuente: [Wikipedia](https://es.wikipedia.org/wiki/High-Definition_Multimedia_Int
 \End{landscape}
 
 El conector estándar de HDMI tipo A (que es el que se utiliza actualmente) tiene 19 pines.  
-![Conector HDMI. Pinout](imgs/ConectorHDMI.png#Width40){width=40%}
+![Conector HDMI. Pinout](imgs/ConectorHDMI.png#Width40)
 
 Se ha definido también una versión de 29 pines (tipo B), que permite llevar un canal de vídeo expandido para pantallas de alta resolución, superiores a las del formato 1080p.
 
-![Conector HDMI](imgs/ConectorHDMI_2.png#Width40){width=40%} 
+![Conector HDMI](imgs/ConectorHDMI_2.png#Width40)
 
 El HDMI tipo A es compatible con un conector tipo DVI; es decir, que una tarjeta gráfica DVI puede conectarse a un monitor HDMI, y viceversa, mediante un adaptador.
 
-![Conversor DVI a HDMI](imgs/ConversorDVI-HDMI.png#Width50){width=50%}
+![Conversor DVI a HDMI](imgs/ConversorDVI-HDMI.png#Width50)
 
 ### DisplayPort
 
@@ -248,19 +248,19 @@ Puerto para tarjetas gráficas creado por VESA y rival del HDMI, transfiere víd
   
 Sus ventajas son que está libre de patentes, y por ende de regalías para incorporarlo a los aparatos, también dispone de unas pestañas para anclar el conector impidiendo que se desconecte el cable accidentalmente.  
 
-![Conector DisplayPort](imgs/ConectorDP.png#Width50){width=50%}
+![Conector DisplayPort](imgs/ConectorDP.png#Width50)
 
 Cada vez más tarjetas gráficas van adoptando este sistema, aunque sigue siendo su uso minoritario, existe una versión reducida de dicho conector llamada Mini DisplayPort, muy usada para tarjetas gráficas con multitud de salidas simultáneas, como pueden ser 5.  
 
-![Conector Mini DisplayPort](imgs/ConectorMiniDP.png#Width50){width=50%}
+![Conector Mini DisplayPort](imgs/ConectorMiniDP.png#Width50)
 
 Al igual que ocurre con HDMI, DisplayPort también es capaz de enviar audio, donde cada versión de dicha interfaz agrega mejoras en este apartado por norma general. Así, es capaz de transmitir audio Dolby, MAT, DRA o DTS HD con un máximo de 8 canales sin compresión a 192 kHz, 24 bits y 6,144 Mb/s.
 
 Lo que más define a DisplayPort es la velocidad y los tipos de conectores que ha ido adquiriendo a modo de compatibilidad con el paso de las versiones.
 
-[![HDMI o DisplayPort ¿Cuál es más adecuado según el tipo de uso? - MuyComputer](imgs/ConectorDP.jpg#Width40){width=40%}](https://www.muycomputer.com/2019/04/01/hdmi-o-displayport/)
+[![HDMI o DisplayPort ¿Cuál es más adecuado según el tipo de uso? - MuyComputer](imgs/ConectorDP.jpg#Width40)](https://www.muycomputer.com/2019/04/01/hdmi-o-displayport/)
 
-![HDMI o DisplayPort ¿Cuál es más adecuado según el tipo de uso? - MuyComputer](imgs/ConectorDP_2.png#Width30){width=30%}
+![HDMI o DisplayPort ¿Cuál es más adecuado según el tipo de uso? - MuyComputer](imgs/ConectorDP_2.png#Width30)
 
 Actualmente, VESA ha presentado la versión 2.0, la cual es la más avanzada hasta la fecha y trae grandes mejoras. DisplayPort comenzó con una velocidad máxima de 8,64 Gb/s en mayor de 2006, apoyándose en un cableado de cobre y fibra, con soporte para HDCP y DPCP y sonido 7.1 digital.  
   
@@ -274,7 +274,7 @@ La interfaz **Thunderbolt** es un estándar para la **transmisión de datos y en
   
 Existe un poco de confusión a la hora de hablar de esta tecnología, sobre todo a la hora de diferenciarla del USB de tipo C. Esto es así porque el **Thunderbolt 3 utiliza un puerto USB-C**, o sea que su aspecto es el mismo exteriormente, pero **no todos los USB de tipo C son Thunderbolt** debido a diferencias en su interior.
 
-![Conector Thunderbolt](imgs/ConectorThunderbolt.png#Width30){width=30%}
+![Conector Thunderbolt](imgs/ConectorThunderbolt.png#Width30)
 
 La **velocidad de transmisión** del Thunderbolt 3 es de hasta **40 Gbps (5 GB/s)**, cuatro veces más que el USB 3.1 y el Thunderbolt original. Que ofrecían 10 Gbps. (los discos duros SSD andan entre 200 y 550 MB/s). Además, también soporta conexiones DisplayPort 1.2, HDMI 2.0, y Ethernet 10 Gigabit.  
   
@@ -289,37 +289,36 @@ Son relativamente baratas y normalmente se van a utilizar para dotar a un equipo
   
 La mayoría dispone de los tipos de salida VGA y DVI, aunque aprovechando la tecnología USB 3.0 se están fabricando tarjetas gráficas USB con salida HDMI.  
 
-![Conversor USB to VGA](imgs/ConversorUSB-VGA.png#Width50){width=50%}
+![Conversor USB to VGA](imgs/ConversorUSB-VGA.png#Width50)
 
-![Conversor USB Multiple](imgs/ConversolUSB-Multiple.png#Width50){width=50%}
+![Conversor USB Multiple](imgs/ConversolUSB-Multiple.png#Width50)
 
 ### Diferencias VGA, DVI, HDMI, DisplayPort y ThunderBolt:
 
-![Todos los conectores](imgs/TodosConectores.png#Width70){width=70%}
-
+![Todos los conectores](imgs/TodosConectores.png#Width70)
 - Video Youtube: Diferencia entre VGA, DVI, HDMI, DisplayPort y ThunderBolt  
   [![Diferencia entre VGA, DVI, HDMI, DisplayPort y ThunderBolt](imgs/YoutubeConectores.png#Width50)](https://youtu.be/ZIE--T0N934)
 
 ## Adaptadores 
 
-Dada la diversidad de conectores que hemos visto, existen una serie de apatados entre uno y otros:
+Dada la diversidad de conectores que hemos visto, existen una serie de apartados entre uno y otros:
 
 ### Desde DVI a VGA  
 
-![Conversor DVI to VGA](imgs/ConversorDVI-VGA.png#Width50){width=50%}
+![Conversor DVI to VGA](imgs/ConversorDVI-VGA.png#Width50)
 
 ###De HDMI a VGA
 
-![Conversor HDMI to VGA](imgs/ConversorHDMI-VGA.png#Width50){width=50%}
+![Conversor HDMI to VGA](imgs/ConversorHDMI-VGA.png#Width50)
 
 ### De DisplayPort a DVI  
 
-![Conversor DisplayPort to DVI](imgs/ConversorDP-DVI.png#Width50){width=50%}
+![Conversor DisplayPort to DVI](imgs/ConversorDP-DVI.png#Width50)
 
 
 ### De DisplayPort a HDMI
 
-![Conversor DisplayPort to HDMI](imgs/ConversorDP-HDMI.png#Width50){width=50%}
+![Conversor DisplayPort to HDMI](imgs/ConversorDP-HDMI.png#Width50)
 
 ## Tarjetas Gráficas Integradas
 
@@ -344,7 +343,7 @@ Diferentes tipos de tarjetas integradas:
 
 Algunas CPU pueden incorporar un procesador gráfico llamado **iGPU**, que no es sino una GPU integrada pero que funciona de manera independiente. De esta manera, se consigue que sin necesidad de una tarjeta gráfica dedicada podamos visualizar el contenido en un monitor, aunque en estos casos el rendimiento es bastante bajo debido a las limitaciones físicas que tienen.
 
-![iGPU dentro de un procesador](imgs/iGPU.png#Width60){width=50%}
+![iGPU dentro de un procesador](imgs/iGPU.png#Width60)
 
 Como características principales tenemos:
 
@@ -358,7 +357,7 @@ Como características principales tenemos:
 
 Como una variante de las CPU con iGPU, en 2011 AMD lanzó el concepto de **APU**, que se diferencia de éstas en que el hardware para gráficos que integra no solo es bastante más potente (de hecho, AMD las vende como dispositivos para jugar), sino que tienen una diferencia fundamental, la arquitectura HSA (heterogénea).
 
-![AMD APU](imgs/APU.png#Width60){width=50%}
+![AMD APU](imgs/APU.png#Width60)
 
 La arquitectura **HSA** permite el **procesamiento paralelo** y permite que la _**GPU**_ trabaje junto con la _**CPU**_, lo que da un rendimiento general superior.
 
@@ -373,14 +372,14 @@ Obviamente, tiene sus limitaciones: no podemos pretender que los gráficos integ
 - Excavator architecture (2016): Bristol Ridge and Stoney Ridge
 - Zen architecture (2017): Raven Ridge INTEL HD and Iris Graphics
 
-[![AMD APU](imgs/AMD_APU.png#Width30){width=30%}](https://www.guiahardware.es/procesadores-amd-apu/) 
+[![AMD APU](imgs/AMD_APU.png#Width30)](https://www.guiahardware.es/procesadores-amd-apu/) 
 
 **[IntelHD and Iris Graphics](https://en.wikipedia.org/wiki/Intel_Graphics_Technology)**  
 
 - Iris Pro Graphics 6200 (128MB memoria dedicada de vídeo).
 - Intel HD Graphics 6000 (64MB de memoria dedicada de vídeo).
 
-[![IntelHD](imgs/IntelHD.png#Width50){width=50%}](https://www.muycomputer.com/2016/05/25/todo-sobre-gpus-integradas-de-intel/)
+[![IntelHD](imgs/IntelHD.png#Width50)](https://www.muycomputer.com/2016/05/25/todo-sobre-gpus-integradas-de-intel/)
 
 
 ## SLI/Crossfire
@@ -394,9 +393,9 @@ El **excedente de memoria no se utilizaría en el funcionamiento conjunto** y ad
 - **SLI** (Scalable Link Interface), de la empresa **nVidia**
 - **Crossfire** de la empresa **ATI/AMD**
 
-![GeForce GTX 980 TI SLI](imgs/SLI_nVIDIA.png#Width60){width=50%}
+![GeForce GTX 980 TI SLI](imgs/SLI_nVIDIA.png#Width60)
 
-![AMD Crossfire](imgs/AMD_Crossfire.png#Width60){width=50%}  
+![AMD Crossfire](imgs/AMD_Crossfire.png#Width60) 
 
 **Para unir dos o más tarjetas gráficas** se emplea un **conector** que hace de puente entre ellas, normalmente en la parte superior, y **solamente una de las tarjetas se conectara con el monitor.**
 
@@ -414,7 +413,7 @@ Solución dispositivos refrigerantes tipos:
 - Hecho de material conductor del calor que lo extrae de la tarjeta.
 - Suelen ser bastante voluminosos.
 
-![Refrigeración mediante disipador](imgs/Refrigeracion_Disipador.png#Width70){width=60%} 
+![Refrigeración mediante disipador](imgs/Refrigeracion_Disipador.png#Width70)
 
 ### Ventilador dispositivo activo
 
@@ -422,7 +421,7 @@ Solución dispositivos refrigerantes tipos:
 - Aleja el calor emanado de la tarjeta al mover el aire cercano.
 - Es más eficiente que un disipador
 
-![Refregeración mediante ventilador](imgs/Refrigeracion_Ventilador.png#Width70){width=50%} 
+![Refregeración mediante ventilador](imgs/Refrigeracion_Ventilador.png#Width70)
 
 Ambos tipos de dispositivos refrigerantes son compatibles entre sí y suelen montarse juntos en las tarjetas gráficas: un disipador sobre la GPU (componente que más calor genera) extrae el calor y un ventilador sobre él aleja el aire caliente del conjunto.  
   
@@ -436,33 +435,33 @@ En un principio esta alimentación adicional no era necesaria, pero poco a poco 
 
 A continuación tenemos los diferentes conectores usados a lo largo de los años para alimentar las tarjetas gráficas:
 
-![Evolucion de los conectores de tarjetas gráficas](imgs/EvolucionConectoresGraficas.png#Width70){width=50%}
+![Evolucion de los conectores de tarjetas gráficas](imgs/EvolucionConectoresGraficas.png#Width70)
   
 Inicialmente se utilizaban conectores Molex, pero en la actualidad es más habitual encontrar conectores PCI-E de 6 u 8 pines.  
 
-![Alimetación de tarjetas gráficas PCIe](imgs/AlimGraficaPCIeAux.png#Width70){width=50%} 
+![Alimetación de tarjetas gráficas PCIe](imgs/AlimGraficaPCIeAux.png#Width70)
 
 Es necesario **comprobar que la potencia de la fuente de alimentación** del equipo sea suficiente. Las nuevas tarjetas gráficas de gran potencia necesitan una alimentación específica que dependerá del modelo y sus prestaciones.  
 
-![Alimentación gráfica ATX 12v](imgs/AlimGraficaATX_12.png#Width30){width=25%}
+![Alimentación gráfica ATX 12v](imgs/AlimGraficaATX_12.png#Width30)
 
 El cable de alimentación auxiliar para tarjetas gráficas se caracteriza por tomar toda su potencia desde el raíl **+12 V** de la fuente de alimentación. Ello es así porque las gráficas solo usan ese tipo de alimentación para funcionar. Los colores de los cables individuales suelen ser amarillo (para la tensión) y negro para el neutro.  
   
 También hay cables adaptadores que permiten usar conectores de alimentación molex o SATA para suplir la ausencia de estos en nuestra fuente de alimentación.
 
-![Adaptador alimantecion SATA](imgs/AlimAdaptSATA.png#Width50){width=50%}
+![Adaptador alimantecion SATA](imgs/AlimAdaptSATA.png#Width50)
  
 Este tipo de cable es más moderno. Inicialmente se usaban adaptadores que se conectaban a dos conectores molex de la fuente de alimentación. De hecho, hoy en día, este tipo de adaptador de alimentación sigue siendo el más extendido. Y el que más suelen distribuir los fabricantes de tarjetas gráficas con sus modelos.
 
-![Adaptador alimentación tipo Molex](imgs/AlimAdaptMolex.png#Width50){width=50%}
+![Adaptador alimentación tipo Molex](imgs/AlimAdaptMolex.png#Width50)
 
 Como ya se ha comentado, el conector de alimentación es del tipo 6+2. Esto significa que su cuerpo principal es un conector de 6 pines. Al que se le pueden añadir dos pines extra, si la gráfica lo necesitara.
 
-![Adaptador gráfica PCIe](imgs/AlimGraficaPCIe.png#Width50){width=50%}
+![Adaptador gráfica PCIe](imgs/AlimGraficaPCIe.png#Width50)
 
 Esto da mucha flexibilidad a los fabricantes de gráficas y fuentes. Así como beneficia a los usuarios, en el caso de tener alguna de las primeras gráficas que usaban solo el conector inicial de 6 pines.
 
-![Adaptador gráfica PCIe](imgs/AlimGraficaPCIe_2.png#Width50){width=50%}
+![Adaptador gráfica PCIe](imgs/AlimGraficaPCIe_2.png#Width50)
 
 El motivo de la existencia de los dos tipos de conectores, es que uno de ellos es capaz de proporcionar 75 W extra (el de 6 pines), mientras que el otro conector proporciona hasta 150 W de potencia extra (el de 8 pines). A esto hay que sumarle los 75 W que proporciona la ranura PCIe de la placa base a la tarjeta gráfica.
 
@@ -472,17 +471,16 @@ Fuente: [Tipos de alimentación para tarjetas gráficas](https://hardzone.es/tut
 
 Con la bajada de precios de los monitores actuales y el aumento de la potencia de las tarjetas gráficas, cada vez se está extendiendo más la utilización de varios monitores en paralelo, tanto para juegos como para trabajo (diseño gráfico, hojas de cálculo muy grandes, etc.). 
 
-![Sistema informáticon con dos monitores](imgs/DosMonitores.png#Width60){width=50%}
-
+![Sistema informáticon con dos monitores](imgs/DosMonitores.png#Width60)
 Para ello y dependiendo del hardware del que dispongamos, se puede llegar a utilizar más de seis pantallas simultáneamente con un único ordenador. Dispondremos de varios formatos de trabajo, entre ellos:  
 
 *   **En espejo**: Se replica la imagen en todos los monitores. En todos se ve lo mismo.
 *   **Escritorio extendido**: Se detectan y enumeran los monitores, y en cada uno de ellos se muestra parte de nuestro escritorio. Puede orientarse en vertical u horizontal.
 
-![Configuración dos pantallas en sistema Windows 10](imgs/ConfigPantallaWindows.png#Width70){width=50%}
+![Configuración dos pantallas en sistema Windows 10](imgs/ConfigPantallaWindows.png#Width70)
 
-![Configuración dos pantallas en sistema Windows 10](imgs/ConfigPantallaWindows_2.png#Width70){width=50%}
+![Configuración dos pantallas en sistema Windows 10](imgs/ConfigPantallaWindows_2.png#Width70)
 
 Para realizar estas tareas de configuración utilizaremos normalmente el sistema operativo o el software propietario de la marca de nuestra tarjeta gráfica:
 
-![Configuración de doble monitor con software de tarjeta](imgs/ConfigPantallaWindows_3.png#Width70){width=50%}
+![Configuración de doble monitor con software de tarjeta](imgs/ConfigPantallaWindows_3.png#Width70)

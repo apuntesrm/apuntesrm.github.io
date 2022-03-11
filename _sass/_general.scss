@@ -18,20 +18,29 @@ body {
   line-height: 2;
 }
 
+.page-content ul{
+  margin-left: 3em;
+  margin-bottom: 1em;
+}
+
+.page-content p{
+  margin: 1em 0em;
+}
+
 h1{
-  color: darkslateblue;
-  margin-top: 1em;
-  text-shadow: 1px 1px 5px lightskyblue;
-}
-
-h2{
-  color: blue;
+  color: darkgray;
   margin-top: 0.5em;
+  text-shadow: 1px 1px 2px lightgray;
 }
 
 h2{
-  color: blue;
+  color: gray;
+  margin-top: 0.4em;
+}
+
+h3{
   margin-top: 0.25em;
+  text-decoration: underline;
 }
 
 img{
@@ -71,7 +80,7 @@ nav {
   float: left; 
   width: 20%; 
   background: #EBEBEB; 
-  padding: 15px 10px 15px 0px; 
+  // padding: 15px 10px 15px 0px; 
 }
 
 nav ul{
@@ -80,10 +89,9 @@ nav ul{
 
 /* The navigation menu links */
 nav a {
-  font-size: smaller;
-  padding: 8px 8px 8px 32px;
+  font-size: medium;
+  padding: 10px 10px 10px 10px;
   text-decoration: none;
-  font-size: 20px;
   color: #818181;
   display: block;
   transition: 0.3s;
@@ -91,6 +99,29 @@ nav a {
 
 /* When you mouse over the navigation links, change their color */
 nav a:hover {
+  color: darkslategray;
+  background-color: gray;
   color: #f1f1f1;
 }
 
+	/* 
+	Formato tablas 
+	*/
+	table { 
+		width: 100%; 
+		border-collapse: collapse; 
+	}
+	/* Zebra striping */
+	tr:nth-of-type(odd) { 
+		background: #eee; 
+	}
+	th { 
+		background: #333; 
+		color: white; 
+		font-weight: bold; 
+	}
+	td, th { 
+		padding: 6px; 
+		border: 1px solid #ccc; 
+		text-align: left; 
+	}

@@ -23,7 +23,7 @@ Los **Slots** principales son:
 - Tasa de transferencia máxima de 266 MB / s en el bus de 64 bits
 - 3,3 V o 5 V, dependiendo del dispositivo
 
-![Tipos de Slots PCI](imgs/TiposSlotPCI.png#Width70){width=70%}
+![Tipos de Slots PCI](imgs/TiposSlotPCI.png#Width70)
 
 ## AGP (ACCELERATED GRAPHICS PORT)
 
@@ -36,7 +36,7 @@ Uso exclusivo para tarjetas gráficas. En desuso actualmente.
   - 0,7 V o 1,5 V a la 8x
   - 1,5 o 3,3 V a la 4x
   
-![Tipos Slots AGO](imgs/TiposSlotAGP.png#Width60){width=60%}
+![Tipos Slots AGO](imgs/TiposSlotAGP.png#Width60)
 
 ## PCI EXPRESS (PCI-E)
   
@@ -55,7 +55,7 @@ Actualmente, se han desarrollado 6 versiones diferentes del bus PCIe:
 - **PCIe 5.0**: su especificación se ha finalizó el pasado año. Y, como es habitual, vuelve a doblar los datos de la anterior especificación hasta los 32 GT/S y 3.938 MB/s.
 - **PCIe 6.0**: su especificación todavía no está finalizada (se la espera para el final del año 2022). Pero volverá a doblar las especificaciones anteriores, llegando hasta los 64 GT/s y 7.8777 MB/s por cada vía de datos.
 
-[![Tabla versiones PCIe](imgs/TablaPCIe.png#Width90){width=90%}](https://es.wikipedia.org/wiki/PCI_Express)
+[![Tabla versiones PCIe](imgs/TablaPCIe.png#Width90)](https://es.wikipedia.org/wiki/PCI_Express)
 
 Una particularidad del bus PCIe, es que es un bus modular. Es decir, que los conectores que se emplean en la placa base, no tienen todos las mismas características. En función del número de vías de datos PCI Express conectada a ellos, pueden ser conocidos como x1, x4, x8 o x 16.  
   
@@ -63,12 +63,12 @@ Esto quiere decir que físicamente cada conector tiene un número de pines de co
 
 [![Tipos de placas PCIe](imgs/TiposSlotPCIe.png#Width70){width=60%}](https://hardzone.es/reportajes/que-es/pci-express-caracteristicas/)
 
-![Tipos de placas PCIe](imgs/TiposSlotPCIe_2.png#Width70){width=60%}
+![Tipos de placas PCIe](imgs/TiposSlotPCIe_2.png#Width70)
 
 ## Factor de forma y tarjetas de expansión
 
 Las tarjetas de expansión vienen preparadas para los diferentes factores de forma de las cajas de los equipos:
 
-![Bracket perfil alto y bajo para tarjetas de expansión](imgs/BracketPCIe.png#Width60){width=50%}
+![Bracket perfil alto y bajo para tarjetas de expansión](imgs/BracketPCIe.png#Width60)
 
 Dependiendo del factor de forma, debemos utilizar un **bracket** de **perfil alto** o de **pefil bajo**

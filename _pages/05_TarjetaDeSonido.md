@@ -10,7 +10,7 @@ permalink: /05_TarjetaDeSonido/
 
 Dispositivo que permite la **reproducción**, **grabación** y **digitalización del sonido**, normalmente a través de software específico. Las placas base actuales normalmente disponen del sistema de sonido integrado y suelen ser de calidad, así que es poco usual ampliar con tarjetas de expansión de sonido.
 
-![Tarjetas de Sonido](imgs/TarjetasSonido.png#Width70){width=60%}
+![Tarjetas de Sonido](imgs/TarjetasSonido.png#Width70)
 
 Normalmente la encontramos ncorporada e la placa base. Se añade una tarjeta de sonido si se necesita un uso profesional (músicos, compositores ...)  
 
@@ -38,7 +38,7 @@ Normalmente se denomina audio o sonido multicanal a partir de una configuración
 
 Las configuraciones multicanal habituales son:  
 
-[![Tabla Canales para audio multicanal](imgs/TablaCanalesSonido.png#Width70){width=60%}](https://es.wikipedia.org/wiki/Audio_multicanal)
+[![Tabla Canales para audio multicanal](imgs/TablaCanalesSonido.png#Width70)](https://es.wikipedia.org/wiki/Audio_multicanal)
 
 En cuanto a la **distribución sonora**, los sonidos que se emiten por los distintos canales suelen ser de diferente rango para crear una sensación de sonido envolvente. Los rangos utilizados por cada canal suelen ser los siguientes:  
 
@@ -47,7 +47,7 @@ En cuanto a la **distribución sonora**, los sonidos que se emiten por los disti
 - Los canales laterales y traseros se utilizan para sonidos de ambientación.
 - El canal de subgraves se utiliza para los sonidos graves con frecuencias de hasta 100 Hz aproximadamente.
 
-![Distintas configuraciones de sonido multicanal](imgs/SonidosDistribucion.png#Width70){width=60%}
+![Distintas configuraciones de sonido multicanal](imgs/SonidosDistribucion.png#Width70)
 
 En la actualidad se utilizan las tarjetas de sonido envolvente (surround), principalmente Dolby Digital 8.1 o superior.
 
@@ -71,13 +71,13 @@ MIDI permite a los instrumentos electrónicos musicales comunicarse bidirecciona
   
 Los códigos MIDI no transmiten música, sino órdenes musicales. Un mensaje MIDI consta de un byte de estado seguido de un cero o más bytes de datos; cada mensaje corresponde a un evento musical del tipo de la pulsación de una tecla o un pedal, el giro o desplazamiento de un control, etc. A cada instrumento musical se le asigna un código MIDI de un total de 128 disponibles.
 
-![Cabla MIDI](imgs/CableMIDI.png#Width70){width=60%}
+![Cabla MIDI](imgs/CableMIDI.png#Width70)
 
 ## Componentes
 
 Los elementos que componen una tarjeta de sonido son los siguientes:  
 
-![Componentes de una tarjeta de sonido](imgs/TarjetaSonidoElementos.png#Width80){width=75%}
+![Componentes de una tarjeta de sonido](imgs/TarjetaSonidoElementos.png#Width80)
 
 ### Mezclador
 
@@ -111,7 +111,7 @@ Permite transmitir información entre tarjeta y ordenador. En la actualidad es a
 
 Las salidas de una tarjeta de sonido son las siguientes:
 
-![Salidas de una tarjeta de sonido](imgs/TarjetaSonidoSalidas.png#Width70){width=60%}
+![Salidas de una tarjeta de sonido](imgs/TarjetaSonidoSalidas.png#Width70)
 
 **Código de colores**: hay que consultar el manual pero generalmente son:  
 
@@ -122,13 +122,13 @@ Las salidas de una tarjeta de sonido son las siguientes:
 - **Plateado**: Salida analógica altavoces laterales
 - **Naranja**: Salida subwoofer o S / PDIF
 
-![Salida tarjeta de sonido analógica](imgs/TarjetaSonidoSalidas2.png#Width50){width=50%}
+![Salida tarjeta de sonido analógica](imgs/TarjetaSonidoSalidas2.png#Width50)
 
 ### S/PIDF
 
 Formato de Interfaz digital y Analógica Sony/Phillips
 
-![Salidas de audio S/PIDF](imgs/SPIDF.png#Width50){width=50%}
+![Salidas de audio S/PIDF](imgs/SPIDF.png#Width50)
 
 Dos posibilidades:  
 
@@ -136,6 +136,6 @@ Dos posibilidades:
 
 - Digital: Fibra óptica. Conector Toslink:
 
-![Conectores S/PDIF](imgs/SPIDF_CableAnalogico.png#Width50){width=40%} 
+![Conectores S/PDIF](imgs/SPIDF_CableAnalogico.png#Width50) 
 
-![Conectores S/PDIF](imgs/SPIDF_CableAnalogico2.png#Width50){width=40%}
+![Conectores S/PDIF](imgs/SPIDF_CableAnalogico2.png#Width50)
