@@ -5,15 +5,38 @@
 }
 
 body {
-  width: 80%;
-  font-size: 18px;
   font-family: Verdana, sans-serif;
+  font-size: 18px;
   margin: 0 auto;
+  width: 90%;
+}
+
+.page-content{
+  float: left; 
+  width: 80%; 
+  padding: 15px 10px 15px 20px;
+  line-height: 2;
+}
+
+h1{
+  color: darkslateblue;
+  margin-top: 1em;
+  text-shadow: 1px 1px 5px lightskyblue;
+}
+
+h2{
+  color: blue;
+  margin-top: 0.5em;
+}
+
+h2{
+  color: blue;
+  margin-top: 0.25em;
 }
 
 img{
   display: block;
-  margin: auto;
+  margin: 1em auto;
 }
 
 img[src*='#Width30']{
@@ -43,24 +66,21 @@ img[src*='#Width100']{
 
 
 /* The side navigation menu */
-.sidenav {
-  height: 100%; /* 100% Full-height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
-  background-color: #111; /* Black*/
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+nav {
+  margin-top: 50px;
+  float: left; 
+  width: 20%; 
+  background: #EBEBEB; 
+  padding: 15px 10px 15px 0px; 
+}
+
+nav ul{
+  list-style: none;
 }
 
 /* The navigation menu links */
-nav{
-  width: 20%;
-}
 nav a {
+  font-size: smaller;
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 20px;
