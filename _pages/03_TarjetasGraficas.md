@@ -214,8 +214,6 @@ A veces se denomina DVI-DL a los conectores que admiten dos enlaces.
 Se trata de una interfaz capaz de transmitir señal de vídeo estándar, mejorado o de alta definición, así como audio de alta definición (de hasta ocho canales). Actualmente se está utilizando la versión 2.1.  
 Las especificaciones de este tipo de conector permiten un ancho de banda de 48GB/s para dar soporte de 64Hz para monitores 8K y 120Hz para 4K. Compatible con HD-DVD y Blu-Ray.   
 
-\Begin{landscape}
-
 | Revisión HDMI | 1.0 | 1.1 | 1.2/1.2a | 1.3/1.3a | 1.4/1.4a/1.4b | 2.0/2.0a/2.0b |
 | --- | :---: | :---: | :---: | :---: | :---: | :---: |
 | Máximo ancho de banda de señal (MHz) | 165 | 165 | 165 | 340 | 340 | N/A |  
@@ -225,11 +223,7 @@ Las especificaciones de este tipo de conector permiten un ancho de banda de 48GB
 | Resoluciones posibles sobre una señal simple HDMI a 24 bits por pixel | 1920x1080p @60Hz | 1920x1080p @60Hz | 1920x1080p @60Hz | 2560x1440p @60Hz | 4096x2160p @60Hz | 4096x2160p @60Hz |  
 | Máxima profundidad de color (bits por pixel) | 24 | 24 | 24 | 48 | 48 | N/A |
 
-::: tip
 Fuente: [Wikipedia](https://es.wikipedia.org/wiki/High-Definition_Multimedia_Interface) 
-:::
-
-\End{landscape}
 
 El conector estándar de HDMI tipo A (que es el que se utiliza actualmente) tiene 19 pines.  
 ![Conector HDMI. Pinout](imgs/ConectorHDMI.png#Width40)
